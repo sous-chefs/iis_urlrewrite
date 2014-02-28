@@ -19,7 +19,7 @@
 
 include_recipe 'iis'
 
-windows_package 'No_Idea_What_This_Should_Be' do
+windows_package 'IIS URL Rewrite Module 2' do
   source node['iis_urlrewrite']['url']
   checksum node['iis_urlrewrite']['checksum']
   action :install
