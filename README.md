@@ -7,16 +7,20 @@ Microsoft Internet Information Server.
 Requirements
 ------------
 
+Operating System:
+
 * Windows 2008 or higher
 * IIS 7 or 7.5. IIS 8 may be supported as well, though Microsoft's documentation does not call it out as being explicitly supported by the module.
+
+Cookbooks:
+
+* iis
+* windows
 
 Usage
 -----
 
-Add `iis_urlrewrite::default` to your node's run_list.
-
-Attributes
-----------
+Add `recipe[iis_urlrewrite]` to your node's run_list.
 
 To-Do
 =====
