@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: iis_urlrewrite
+# Cookbook:: iis_urlrewrite
 # Recipe:: default
-# Author:: Julian C. Dunn (<jdunn@getchef.com>)
-# Copyright:: (C) 2014 Chef Software, Inc.
+# Author:: Julian C. Dunn (<jdunn@chef.io>)
+# Copyright:: 2014-2017, Chef Software, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@
 
 include_recipe 'iis'
 
-windows_package 'IIS URL Rewrite Module 2' do
+package 'IIS URL Rewrite Module 2' do
   source node['iis_urlrewrite']['url']
   checksum node['iis_urlrewrite']['checksum']
   action :install
-  notifies :restart, "service[iis]"
+  notifies :restart, 'service[iis]'
 end
