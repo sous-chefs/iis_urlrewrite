@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
+## 2.0.1 (2017-02-21)
+
+- Remove the need for windows cookbook as a dependency
+
 ## 2.0.0 (2017-02-21)
 
 - Moved the repository to the chef-cookbooks organization
