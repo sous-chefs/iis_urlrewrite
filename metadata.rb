@@ -7,10 +7,8 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '2.0.0'
 
 supports 'windows'
+depends  'iis'
 
-%w(iis windows).each do |d|
-  depends d
-end
 
 source_url 'https://github.com/chef-windows/iis_urlrewrite'
 issues_url 'https://github.com/chef-windows/iis_urlrewrite/issues'

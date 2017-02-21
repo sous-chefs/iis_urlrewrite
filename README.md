@@ -17,7 +17,6 @@ This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Micr
 ### Cookbooks
 
 - iis
-- windows
 
 ## Usage
 
