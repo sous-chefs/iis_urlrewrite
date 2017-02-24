@@ -9,7 +9,6 @@ version          '2.0.1'
 supports 'windows'
 depends  'iis'
 
-
 source_url 'https://github.com/chef-windows/iis_urlrewrite'
 issues_url 'https://github.com/chef-windows/iis_urlrewrite/issues'
 chef_version '>= 12.1' if respond_to?(:chef_version)
