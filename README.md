@@ -1,4 +1,4 @@
-# IIS URL Rewrite 2.0 Cookbook
+# iis_urlrewrite Cookbook
 
 [![Cookbook Version](https://img.shields.io/cookbook/v/iis_urlrewrite.svg)](https://supermarket.chef.io/cookbooks/iis_urlrewrite)
 
@@ -9,7 +9,7 @@ This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Micr
 ### Platforms
 
 - Windows 2008 or higher
-- IIS 7 or 7.5\. IIS 8 may be supported as well, though Microsoft's documentation does not call it out as being explicitly supported by the module.
+
 ### Chef
 
 - Chef 12.6+
