@@ -1,6 +1,6 @@
 # iis_urlrewrite Cookbook
 
-[![Cookbook Version](https://img.shields.io/cookbook/v/iis_urlrewrite.svg)](https://supermarket.chef.io/cookbooks/iis_urlrewrite)
+[![Build status](https://ci.appveyor.com/api/projects/status/6pug24aej09d7xcc/branch/master?svg=true)](https://ci.appveyor.com/project/ChefWindowsCookbooks/iis-urlrewrite/branch/master)[![Cookbook Version](https://img.shields.io/cookbook/v/iis_urlrewrite.svg)](https://supermarket.chef.io/cookbooks/iis_urlrewrite)
 
 This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Microsoft Internet Information Server.
 
@@ -23,7 +23,6 @@ This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Micr
 Add `recipe[iis_urlrewrite]` to your node's run_list.
 
 ## License and Author
-
 
 **Author:** Julian Dunn ([jdunn@chef.io](mailto:jdunn@chef.io))
 
