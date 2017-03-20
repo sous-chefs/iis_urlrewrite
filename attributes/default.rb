@@ -19,10 +19,10 @@
 
 if platform_family?('windows')
   if node['kernel']['machine'] == 'x86_64'
-    default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/6/7/D/67D80164-7DD0-48AF-86E3-DE7A182D6815/rewrite_2.0_rtw_x64.msi'
-    default['iis_urlrewrite']['checksum'] = 'd9722381f3025bfd4d0f9006d6e33301be5907545801a48b6c082ce1465c5676'
+    default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/C/9/E/C9E8180D-4E51-40A6-A9BF-776990D8BCA9/rewrite_amd64.msi'
+    default['iis_urlrewrite']['checksum'] = '64f99f1f8521b735cafc64af14344ffc075b3b0d7cd4bd0d0826db5f8c45f4ea'
   else
-    default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/6/9/C/69C1195A-123E-4BE8-8EDF-371CDCA4EC6C/rewrite_2.0_rtw_x86.msi'
-    default['iis_urlrewrite']['checksum'] = '44f6cf07afef7ef246686623593700a5fb398c3dc11fea8e70c467fe6a461344'
+    default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/5/4/9/54980B19-9C64-4E8E-A69C-615A88DFF8B7/rewrite_x86.msi'
+    default['iis_urlrewrite']['checksum'] = 'e120f29a61474e9b6c828ad69065895587b5d72afd3d0847bfa70d34c49c9dfa'
   end
 end
