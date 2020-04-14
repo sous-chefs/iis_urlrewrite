@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
+## Unreleased
+
+- resolved cookstyle error: metadata.rb:13:1 refactor: `ChefModernize/RespondToInMetadata`
+
 ## 2.1.0 (2017-03-20)
 
 - Support Windows 2016 installations by using the new urlrewrite package
