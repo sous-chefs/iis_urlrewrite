@@ -10,4 +10,4 @@ depends  'iis'
 
 source_url 'https://github.com/chef-cookbooks/iis_urlrewrite'
 issues_url 'https://github.com/chef-cookbooks/iis_urlrewrite/issues'
-chef_version '>= 12.6' if respond_to?(:chef_version)
+chef_version '>= 12.6'
