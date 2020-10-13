@@ -19,8 +19,8 @@
 
 if platform_family?('windows')
   if node['kernel']['machine'] == 'x86_64'
-    default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/C/9/E/C9E8180D-4E51-40A6-A9BF-776990D8BCA9/rewrite_amd64.msi'
-    default['iis_urlrewrite']['checksum'] = '64f99f1f8521b735cafc64af14344ffc075b3b0d7cd4bd0d0826db5f8c45f4ea'
+    default['iis_urlrewrite']['url'] = 'https://download.microsoft.com/download/1/2/8/128E2E22-C1B9-44A4-BE2A-5859ED1D4592/rewrite_amd64_en-US.msi'
+    default['iis_urlrewrite']['checksum'] = '37342ff2f585f263f34f48e9de59eb1051d61015a8e967dbde4075716230a32a'
   else
     default['iis_urlrewrite']['url'] = 'http://download.microsoft.com/download/5/4/9/54980B19-9C64-4E8E-A69C-615A88DFF8B7/rewrite_x86.msi'
     default['iis_urlrewrite']['checksum'] = 'e120f29a61474e9b6c828ad69065895587b5d72afd3d0847bfa70d34c49c9dfa'
