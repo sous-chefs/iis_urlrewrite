@@ -2,8 +2,12 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
-## Unreleased
+## 2.1.1 (2020-11-17)
 
+- Cookstyle fixes - [@tas50](https://github.com/tas50)
+- Testing updates - [@tas50](https://github.com/tas50)
+- Remove metadata.rb long_description field - [@tas50](https://github.com/tas50)
+- IIS url overwrite URL changed - [@publius-github](https://github.com/publius-github)
 - resolved cookstyle error: metadata.rb:13:1 refactor: `ChefModernize/RespondToInMetadata`
 
 ## 2.1.0 (2017-03-20)
