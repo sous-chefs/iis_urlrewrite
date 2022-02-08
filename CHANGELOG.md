@@ -4,10 +4,11 @@ This file is used to list changes made in each version of the iis_urlrewrite coo
 
 ## Unreleased
 
+- Remove delivery folder
+
 ## 2.1.3 - *2021-08-17*
 
-Standardise files with files in sous-chefs/repo-management
-
+- Standardise files with files in sous-chefs/repo-management
 
 ## 2.1.1 (2020-11-17)
 
