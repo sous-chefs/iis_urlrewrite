@@ -4,6 +4,8 @@ This file is used to list changes made in each version of the iis_urlrewrite coo
 
 ## Unreleased
 
+## 2.1.4 - *2023-02-14*
+
 - Remove delivery folder
 
 ## 2.1.3 - *2021-08-17*
