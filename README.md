@@ -1,7 +1,5 @@
 # iis_urlrewrite Cookbook
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6pug24aej09d7xcc/branch/master?svg=true)](https://ci.appveyor.com/project/ChefWindowsCookbooks/iis-urlrewrite/branch/master)[![Cookbook Version](https://img.shields.io/cookbook/v/iis_urlrewrite.svg)](https://supermarket.chef.io/cookbooks/iis_urlrewrite)
-
 This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Microsoft Internet Information Server.
 
 ## Requirements
@@ -22,22 +20,27 @@ This cookbook downloads and installs the IIS URL Rewrite 2.0 extension into Micr
 
 Add `recipe[iis_urlrewrite]` to your node's run_list.
 
-## License and Author
+## Contributors
 
-**Author:** Julian Dunn ([jdunn@chef.io](mailto:jdunn@chef.io))
+This project exists thanks to all the people who [contribute.](https://opencollective.com/sous-chefs/contributors.svg?width=890&button=false)
 
-**Copyright:** 2014-2017, Chef Software, Inc.
+### Backers
 
-```
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Thank you to all our backers!
 
-    http://www.apache.org/licenses/LICENSE-2.0
+![https://opencollective.com/sous-chefs#backers](https://opencollective.com/sous-chefs/backers.svg?width=600&avatarHeight=40)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+![https://opencollective.com/sous-chefs/sponsor/0/website](https://opencollective.com/sous-chefs/sponsor/0/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/1/website](https://opencollective.com/sous-chefs/sponsor/1/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/2/website](https://opencollective.com/sous-chefs/sponsor/2/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/3/website](https://opencollective.com/sous-chefs/sponsor/3/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/4/website](https://opencollective.com/sous-chefs/sponsor/4/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/5/website](https://opencollective.com/sous-chefs/sponsor/5/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/6/website](https://opencollective.com/sous-chefs/sponsor/6/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/7/website](https://opencollective.com/sous-chefs/sponsor/7/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/8/website](https://opencollective.com/sous-chefs/sponsor/8/avatar.svg?avatarHeight=100)
+![https://opencollective.com/sous-chefs/sponsor/9/website](https://opencollective.com/sous-chefs/sponsor/9/avatar.svg?avatarHeight=100)
