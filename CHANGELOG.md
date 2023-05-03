@@ -4,6 +4,9 @@ This file is used to list changes made in each version of the iis_urlrewrite coo
 
 ## Unreleased
 
+- Update standardfiles
+- Update workflow to 2.0.2
+
 ## 2.1.6 - *2023-04-01*
 
 ## 2.1.5 - *2023-03-02*
@@ -43,4 +46,3 @@ This file is used to list changes made in each version of the iis_urlrewrite coo
 - Updated the recipe to use package instead of windows_package, which requires chef-client 12.6 or later now
 - Added testing framework to get linting in Travis CI
 - Added new metadata for the Supermarket
-
