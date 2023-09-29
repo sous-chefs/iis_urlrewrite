@@ -3,7 +3,7 @@ maintainer       'Chef Software, Inc.'
 maintainer_email 'cookbooks@chef.io'
 license          'Apache-2.0'
 description      'Installs and configures the IIS URL Rewrite Module'
-version          '2.1.7'
+version          '2.1.8'
 
 supports 'windows'
 depends  'iis'
