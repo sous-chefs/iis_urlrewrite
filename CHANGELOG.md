@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
-## Unreleased
+## 3.0.0 - *2023-12-21*
 
 - Finish adoption into sous-chefs org
 - Bump minimum required version to 15.3
