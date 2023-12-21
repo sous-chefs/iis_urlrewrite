@@ -4,6 +4,11 @@ This file is used to list changes made in each version of the iis_urlrewrite coo
 
 ## Unreleased
 
+## 3.0.0 - *2023-12-21*
+
+- Finish adoption into sous-chefs org
+- Bump minimum required version to 15.3
+
 ## 2.1.8 - *2023-09-29*
 
 ## 2.1.7 - *2023-05-03*
