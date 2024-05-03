@@ -3,7 +3,7 @@ maintainer       'Sous Chefs'
 maintainer_email 'help@sous-chefs.org'
 license          'Apache-2.0'
 description      'Installs and configures the IIS URL Rewrite Module'
-version          '3.0.1'
+version          '3.0.2'
 
 source_url 'https://github.com/sous-chefs/iis_urlrewrite'
 issues_url 'https://github.com/sous-chefs/iis_urlrewrite/issues'
