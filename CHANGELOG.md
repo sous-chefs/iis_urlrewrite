@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
-## Unreleased
+## 3.0.3 - *2025-09-04*
 
 ## 3.0.2 - *2024-05-03*
 
