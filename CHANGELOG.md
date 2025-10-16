@@ -2,6 +2,13 @@
 
 This file is used to list changes made in each version of the iis_urlrewrite cookbook.
 
+## [3.0.4](https://github.com/sous-chefs/iis_urlrewrite/compare/3.0.3...v3.0.4) (2025-10-15)
+
+
+### Bug Fixes
+
+* **ci:** Update workflows to use release pipeline ([#37](https://github.com/sous-chefs/iis_urlrewrite/issues/37)) ([952f686](https://github.com/sous-chefs/iis_urlrewrite/commit/952f6863ec3fa3fa2add070172148dae33b231d5))
+
 ## 3.0.0 - *2023-12-21*
 
 * Finish adoption into sous-chefs org
