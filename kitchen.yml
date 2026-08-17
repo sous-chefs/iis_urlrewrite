@@ -9,7 +9,8 @@ transport:
   elevated: true
 
 provisioner:
-  name: chef_zero
+  name: policyfile_zero
+  policyfile: Policyfile.rb
   deprecations_as_errors: true
 
 platforms:
@@ -22,5 +23,5 @@ platforms:
 
 suites:
   - name: default
-    run_list:
-      - recipe[iis_urlrewrite::default]
+    provisioner:
+      named_run_list: default
